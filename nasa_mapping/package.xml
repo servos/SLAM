@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>nasa_mapping</name>
+  <version>0.0.0</version>
+  <description>nasa mapping top-level package</description>
+  <maintainer email="jdservos@todo.todo">jdservos</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>scan_registration2D</run_depend>
+  <run_depend>ekf</run_depend>
+  <run_depend>graph_slam</run_depend>
+  <run_depend>local_mapper</run_depend>
+
+  <export>
+  </export>
+</package>

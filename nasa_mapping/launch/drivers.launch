@@ -1,0 +1,34 @@
+<!--xml-->
+<launch>
+    <!-- Machine Configuration -->
+    <include file="$(find launch)/$(optenv MACHINE local).machines"/>
+
+
+   <!-- VELODYNE -->
+
+    <!--include file="$(find velodyne_pointcloud)/launch/32e_points.launch" /-->
+  <!-- start nodelet manager and driver nodelets -->
+  <node pkg="nodelet" type="nodelet" name="velodyne_nodelet_manager" args="manager" machine="nasa_mapping"/>
+  <node pkg="nodelet" type="nodelet" name="driver_nodelet"
+        args="load velodyne_driver/DriverNodelet velodyne_nodelet_manager" machine="nasa_mapping">
+    <param name="model" value="32E"/>
+    <param name="pcap" value=""/>
+  </node>  
+
+  <!-- start cloud nodelet -->
+  <node pkg="nodelet" type="nodelet" name="cloud_nodelet"
+        args="load velodyne_pointcloud/CloudNodelet velodyne_nodelet_manager" machine="nasa_mapping">
+    <param name="calibration" value="$(find velodyne_pointcloud)/params/32db.yaml"/>
+  </node>
+
+  <!-- IMU -->
+
+    <node pkg="microstrain_3dmgx2_imu" type="imu_node" name="microstrain_3dmgx2_node" output="screen" machine="nasa_mapping">
+        <param name="time_offset" value="-0.040" />
+        <param name="port"  type="string" value="/dev/imu" />
+        <param name="autostart" type="bool" value="true" />
+        <param name="frameid"  type="string" value="imu" />
+        <param name="autocalibrate" type="bool" value="false" />
+        <param name="angular_velocity_stdev" type="double" value="0.00017" />
+    </node>
+</launch>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.6</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/src</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/lib</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/src</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/lib</path>
+<path>/opt/ros/fuerte/stacks/bond_core/smclib/src</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl_fuerte_unstable/flann/lib</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf/src</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf/lib</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet/src</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet/lib</path>
+<path>/opt/ros/fuerte/stacks/geometry/angles/lib</path>
+<path>/opt/ros/fuerte/stacks/dynamic_reconfigure/src</path>
+<path>/opt/ros/fuerte/stacks/dynamic_reconfigure/lib</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bondcpp/src</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bondcpp/lib</path>
+<path>/opt/ros/fuerte/stacks/bullet/src</path>
+<path>/opt/ros/fuerte/stacks/bullet/lib</path>
+<path>/opt/ros/fuerte/stacks/pluginlib/src</path>
+<path>/opt/ros/fuerte/stacks/pluginlib/lib</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl_fuerte_unstable/pcl16/src</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl_fuerte_unstable/pcl16/lib</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bond/src</path>
+<path>/home/jdservos/wavelab/wavelab/projects/servos/global_matching/src</path>
+<path>/opt/ros/fuerte/share/ros/core/mk</path>
+<path>/usr/local/lib/python2.7/dist-packages/rosdep-0.10.3-py2.7.egg</path>
+<path>/opt/ros/fuerte/lib/python2.7/dist-packages</path>
+<path>/home/jdservos/wavelab/wavelab/projects/servos/global_matching</path>
+<path>/usr/lib/python2.7</path>
+<path>/usr/lib/python2.7/plat-linux2</path>
+<path>/usr/lib/python2.7/lib-tk</path>
+<path>/usr/lib/python2.7/lib-dynload</path>
+<path>/usr/local/lib/python2.7/dist-packages</path>
+<path>/usr/lib/python2.7/dist-packages</path>
+<path>/usr/lib/python2.7/dist-packages/PIL</path>
+<path>/usr/lib/python2.7/dist-packages/gst-0.10</path>
+<path>/usr/lib/python2.7/dist-packages/gtk-2.0</path>
+<path>/usr/lib/pymodules/python2.7</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntu-sso-client</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-client</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-control-panel</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-couch</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-installer</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-storage-protocol</path>
+<path>/usr/lib/python2.7/dist-packages/wx-2.8-gtk2-unicode</path>
+</pydev_pathproperty>
+</pydev_project>

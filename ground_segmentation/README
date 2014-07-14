@@ -1,0 +1,15 @@
+-- Ground Segmentation Library --
+
+This library segments the3 ground for a pointcloud using gaussian processes
+
+
+Classes:
+
+    GroundSegmentation
+        Functions:
+            
+            segment_ground(...)
+            classify_points(...)
+
+        Members:
+            

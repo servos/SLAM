@@ -1,0 +1,17 @@
+<!--xml-->
+<launch>
+	<!-- Machine Configuration -->
+    <include file="$(find launch)/$(optenv MACHINE local).machines"/>
+    
+    <!-- add below to node launch to run node in GDB -->
+    <!-- example -->
+    <!-- <node name="scan_regisration" pkg="scan_registration" type="scan_registration" output="screen"  machine="nasa_mapping" launch-prefix="gdb -ex run DASHDASHargs"/>  -->
+    
+    <node name="scan_regisration" pkg="scan_registration" type="scan_registration" output="screen"  machine="nasa_mapping" /> 
+    <node name="graph_slam" pkg="graph_slam" type="graph_slam" output="screen" machine="nasa_mapping"/>
+    <node name="ekf_node" pkg="ekf" type="ekf_node" output="screen" machine="nasa_mapping" />
+    <node name="local_mapper" pkg="local_mapper" type="local_mapper" output="screen" machine="nasa_mapping" />
+    <node name="camera_conversion" pkg="sample_mapping" type="sample_conversion_node" output="screen" machine="nasa_mapping" />
+
+
+</launch>

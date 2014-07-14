@@ -1,0 +1,16 @@
+-- Scan Registration Node --
+
+This node is a wrapper for the variuos registration libraries.
+
+Currently the registration libaries include:
+    1. ccicp2d
+
+Inputs: global_pointcloud
+        scene_pointcloud
+        ekf_pose
+
+Output: registerd_pose
+
+Parameters: TBD
+
+

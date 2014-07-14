@@ -1,0 +1,11 @@
+-- Class Constrained ICP Library --
+
+Inputs: initial pose
+        target cloud
+        scene cloud
+
+Output: Aligned transform`
+
+TODO:
+-standard interface to scan reg / gslam
+-move segmentations and classfication into this node
